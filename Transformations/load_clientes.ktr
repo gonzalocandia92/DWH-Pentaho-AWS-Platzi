@@ -517,7 +517,7 @@
     <quoteString>N</quoteString>
     <sql>COPY dwh_adventureworks.dim_clientes
 FROM 's3://bucker-curso-platzi-gcandia-23/demoplatzi/adventure/dim_clientes.csv'
-CREDENTIALS 'aws_access_key_id=AKIAWU6SZGNEYRC5PE5Y;aws_secret_access_key=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' 
+CREDENTIALS 'aws_access_key_id=myaccesskey;aws_secret_access_key=mysecretaccesskey' 
 DELIMITER ';'
 REGION AS 'sa-east-1';
 </sql>
