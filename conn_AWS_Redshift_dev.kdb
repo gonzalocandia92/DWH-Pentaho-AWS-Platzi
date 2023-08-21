@@ -1,0 +1,27 @@
+  <connection>
+    <name>conn_AWS_Redshift_dev</name>
+    <server>demo-platzi-curso-etl.c0tgpdtforcs.sa-east-1.redshift.amazonaws.com</server>
+    <type>REDSHIFT</type>
+    <access>Native</access>
+    <database>dev</database>
+    <port>5439</port>
+    <username>demoplatzi</username>
+    <password>Encrypted 2bed5ceba03c69e91a118a03e8fc5ff8d</password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute><code>EXTRA_OPTION_REDSHIFT.loginTimeout</code><attribute>10</attribute></attribute>
+      <attribute><code>EXTRA_OPTION_REDSHIFT.tcpKeepAlive</code><attribute>true</attribute></attribute>
+      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
+      <attribute><code>PORT_NUMBER</code><attribute>5439</attribute></attribute>
+      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>Y</attribute></attribute>
+      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
+      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
+      <attribute><code>jdbcAuthMethod</code><attribute>Standard</attribute></attribute>
+    </attributes>
+  </connection>
